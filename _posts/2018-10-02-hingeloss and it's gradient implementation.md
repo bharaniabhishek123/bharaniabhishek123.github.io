@@ -15,13 +15,13 @@ Where:
 + $X \in \mathbb{R}^{N \times D} $ where each $x_{i}$ are a single example we want to classify. $x_{i} = [x_{i1},\  x_{i2},\  \ldots,\  x_{iD}]$
 + $y$ is the correct class of $x_i$
 
-+ also, notice that $\ w. phi(x)$ is a scalar
++ also, notice that $\ w. \phi(x)$ is a scalar
 
 ## Analytic gradient
 We want to compute $\nabla_{w}Loss_{hinge}(x,y,w)$
 
-$$\nabla_{w}Loss_{hinge}(x,y,w) = (-\phi(x) y if w.\phi(x) y \lt 1 \\
- 0 \otherwise)
+$$\nabla_{w}Loss_{hinge}(x,y,w) = (-\phi(x) \ y \if \ w.\phi(x) \y \lt 1 \\
+                 \0 \   otherwise)
 $$
 
 ## Vectorized implementation
