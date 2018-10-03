@@ -1,0 +1,59 @@
+---
+layout: post  
+title:  "Lecture 2 CS221"  
+date:   2018-09-28 23:25:46 -0400  
+categories: jekyll update
+---
+## Predictor 
+A predictor is a function that can map input to output. In particular new input to new output.
+
+## Feature Extraction  
+What properties are relevant to predict, outputting key value pair. All we have as an output of feature extractor is feature values. 
+
+
+## Weight Vector
+a list of number,
+for each feature j we will have a real number w<sub>j</sub> representing the contribution of each feature j to prediction.  
+
+High values are high importance of feature. Positive values means this feature contributes to positive labels and negative values means this features contributes to negative labels.  
+
+## Score 
+dot product between weight vector and feature vector.
+Summation of feature weight times feature values.  
+
+Weight vector is just one but feature vectors are as many as training examples that we have. 
+
+w . \phi (x)
+
+
+##   Margin
+
+score * y(true labels)  
+How correct we are, larger the margin larger the correctness.  
+
+## zero-one loss or indicator function
+Did you get the prediction wrong or not. It's 1 predictor != label else 0.
+
+
+# Regression 
+
+## squared loss
+residual  = score -y
+residual is positive then overshot else if negative then undershot.  
+Squared loss is take the residual and square it.  
+
+## absolute deviation loss
+just take the absolute value of difference between score and y.  
+
+
+
+
+
+
+  
+
+
+
+
+
+

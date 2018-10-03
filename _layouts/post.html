@@ -1,0 +1,43 @@
+---
+layout: default
+comments: true
+---
+
+<article class="post">
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true
+    },
+    "HTML-CSS": {
+    linebreaks: { automatic: true, width: "container" }          
+  }
+  });
+</script>
+  <p>{{ page.update }}</p>
+  <h1>{{ page.title }}</h1>
+
+  <div class="date">
+    {{ page.date | date: "%B %e, %Y" }} • Busa Victor
+  </div>
+
+  <div class="entry">
+      
+
+    {{ content }}
+  </div>
+
+
+
+  {% include disqus.html %}
+</article>
