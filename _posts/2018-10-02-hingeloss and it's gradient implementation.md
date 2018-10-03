@@ -83,4 +83,33 @@ print("w after stocastic", W)
 
 #[ 0. ,  0. , -0.5,  0.5, -0.5,  0.5]
 
+```  
+Alternatively,
+```
+python
+import numpy as np
+
+
+X = np.array([
+    [1,0,1,0,0,0],
+    [0,1,0,1,0,0],
+    [0,1,0,0,1,0],
+    [1,0,0,0,0,1],
+])
+
+y = np.array([-1,1,-1,1])
+
+def svm_sgd(X, Y):
+
+    w = np.zeros(len(X[0]))
+    eta = 0.5
+
+    for i, x in enumerate(X):
+        if (Y[i]*np.dot(X[i], w)) < 1:
+            w = w + eta * ( (X[i] * Y[i]) )
+    return w
+
+w = svm_sgd(X,y)
+print(w)
+
 ```
