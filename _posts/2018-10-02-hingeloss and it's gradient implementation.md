@@ -3,24 +3,19 @@ layout: post
 title: Hinge Loss Gradient Computation
 ---
 
-When I started attending *CS231n* class from Stanford as a self-taught person, I was a little annoyed that
-they were no more explanations on how one is supposed to compute the gradient of the hinge loss. Actually,
-in the [lecture](http://cs231n.github.io/optimization-1/ "Optimization") we can see the formula of the gradient of the SVM loss. Although the formula seems understandable, I still thinks we might need to get our hands dirty by doing the math.
+Let's implement the hinge loss and and it's gradient as a part of assignment for CS221.  
 
 ## Loss Function
-In this part, I will quickly define the problem according to the data of the first assignment of CS231n.
 Let's define our Loss function by:
 
-$$L_i = \sum\limits_{j \neq y_i}[\ max(0, x_iw_j - x_iw_{y_i} + \Delta)\ ]$$
+$$Loss_{hinge}(x,y,w) = \ max(0, 1- w . \phi(x) y $$
 
 Where: 
-+ $w_j$ are the column vectors. So for example $w_j^{\intercal} = [w_{j1},\  w_{j2},\  \ldots, w_{jD}]$
++ $w$ is our weight vector. So for example $w_j^{\intercal} = [w_{j1},\  w_{j2},\  \ldots, w_{jD}]$
 + $X \in \mathbb{R}^{N \times D} $ where each $x_{i}$ are a single example we want to classify. $x_{i} = [x_{i1},\  x_{i2},\  \ldots,\  x_{iD}]$
-+ hence $i$ iterates over all N examples
-+ $j$ iterates over all C classes.
-+ $y_i$ is the index of the correct class of $x_i$
-+ $\Delta$ is the margin paramater. In the assignment $\Delta = 1$
-+ also, notice that $x_iw_j$ is a scalar
++ $y$ is the correct class of $x_i$
+
++ also, notice that $\ w. phi(x)$ is a scalar
 
 ## Analytic gradient
 We want to compute $\forall i,j \in [1, N]\times[1, C]$ $\nabla_{w_{j}}L_i$. We know
