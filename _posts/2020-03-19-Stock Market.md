@@ -9,8 +9,13 @@ title: Stock Market
 Sector-wise if we see this , the coronavirus and tensions between russia and saudi arabia had impacted the most to Airlines, Oil & Energy, Export, Hotels. Due to sudden volatility and drop in market, central bank reduced the interest rates to 0. This in-turn will impacted Financial (Banks and other lendors). Now the DJIA average is down by around 45% from all time-high of 29,000 to 20,000. 
 
 
+<<<<<<< HEAD
 | DOW JONES COMPANY         | ALL-TIME HIGH 	| CURRENT   | CHG  %  | 2008 Low      | 2020-2008 diff     | BalanceSheet    | Ratings   |
 |-----------------|:----------:|:----------:|:-----------:|:-----------:|:----------|:----------:|:-----------:|:-----------:|:-------|
+=======
+| DOW JONES COMPANY         | ALL-TIME HIGH 	| CURRENT   | CHG %  | 2008 Low  | 2020-2008 diff    | BalanceSheet  | Ratings   |
+|-----------------|:-----:|:-----:|------:|------:|-----|:-----:|------:|------:|--|
+>>>>>>> 68ddf42d635626467bed549630635143ee455339
 McDonald's Corp. | 220 | 146|  -50%| 51| +90 |  Not a Buy
 Dow Inc. | | | | | | | |Not a Buy
 Walt Disney Co. | 153| 95| -38%| 15| +80| Still to Analyze| |
