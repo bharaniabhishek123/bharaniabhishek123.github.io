@@ -43,8 +43,8 @@ Coca-Cola Co. | | | | | | | |
 Walgreens Boots Alliance Inc.| | | | | | | | 
 Costco | 324| 305| -5%| 41| +264| Analyze| | 
 
-| NASDAQ COMPANY         | ALL-TIME HIGH	| CURRENT	| CHG % | 2008 Low | 2008-2020 diff | BalanceSheet | Ratings |
-|-----------------|:-----:|:-----:|------:|------:|-----|:-----:|------:|------:|--|
+| DOW JONES <newline> COMPANIES| ALL-TIME <newline> HIGH 	| CURRENT   | CHG  %  | 2008 <newline> Low      | 2020-2008 <newline> diff     | Balance <newline> Sheet   | Ratings   |
+|-----------------:|:----------:|:----------:|:-----------:|:-----------:|:----------|:----------:|:-----------:|:-----------:|:-------|
 Designer Brands | 2.89 | 5.2 | 80% | 5.11 | 2.22 | Good (No Debt)| Buy|
 ULTA| | | | | | | | 
 Twitter| | | | | | | | 
