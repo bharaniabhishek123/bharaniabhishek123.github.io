@@ -11,37 +11,37 @@ Sector-wise if we see this , the coronavirus and tensions between russia and sau
 
 | DOW JONES <newline> COMPANIES| ALL-TIME <newline> HIGH 	| CURRENT   | CHG  %  | 2008 <newline> Low      | 2020-2008 <newline> diff     | Balance <newline> Sheet   | Ratings   |
 |-----------------:|:----------:|:----------:|:-----------:|:-----------:|:----------|:----------:|:-----------:|:-----------:|:-------|
-McDonald's Corp. | 220 | 146|  -50%| 51| +90 |  Not a Buy
-Dow Inc. | | | | | | | |Not a Buy
-Walt Disney Co. | 153| 95| -38%| 15| +80| Still to Analyze| |
-Nike Inc.  | 100| 70| -30%| 10 | +60| Still to Analyze | |
+McDonald's Corp. | 220 | 146|  -50%| 51| +90 |  Not Buy
+Dow Inc. | | | | | | | |Not Buy
+Walt Disney Co. | 153| 95| -38%| 15| +80| Analyze| |
+Nike Inc.  | 100| 70| -30%| 10 | +60| Analyze | |
 Microsoft Corp.	 |174| 140| -20%| 15| +125| Good| | |
-Goldman Sachs Group Inc. | 273| 148| -46% | 47| +101 | Still to Analyze | |
-Visa Inc. | 210 | 155 | -26% | 10| +145 | Still to Analyze | |
-Cisco Systems Inc. | 57 | 38| -33%| 15| +23| Still to Analyze | |
+Goldman Sachs Group Inc. | 273| 148| -46% | 47| +101 | Analyze | |
+Visa Inc. | 210 | 155 | -26% | 10| +145 | Analyze | |
+Cisco Systems Inc. | 57 | 38| -33%| 15| +23| Analyze | |
 United Technologies Corp. | | | | | | | |
 JPMorgan Chase & Co. | | | | | | | |
 UnitedHealth Group Inc. | | | | | | | |
-Walmart Inc. | 122 | 122| 0%| 43| +79| Still to Analyze | |
-Intel Corp. | 70 | 46| -34% | 12| +34| Still to Analyze| |
+Walmart Inc. | 122 | 122| 0%| 43| +79| Analyze | |
+Intel Corp. | 70 | 46| -34% | 12| +34| Analyze| |
 Travelers Cos. Inc. | | | | | | | |
 Home Depot Inc. | | | | | | | |
 Exxon Mobil Corp. | | | | | | | |
 Chevron Corp.	 | | | | | | | |
 3M Co. | | | | | | | |
 Apple Inc. | | | | | | | |
-Merck & Co. Inc. | 90 | 72 | -20%|20| +48| Still to Analyze | |
+Merck & Co. Inc. | 90 | 72 | -20%|20| +48| Analyze | |
 American Express Co. | | | | | | | |
 Verizon Communications Inc.	 | | | | | | | |
 International Business Machines Corp. | | | | | | | |
 Procter & Gamble Co. | | | | | | | |
-Boeing Co. | 441| 100| -75% | 30| +70| Still to Analyze | |
+Boeing Co. | 441| 100| -75% | 30| +70| Analyze | |
 Caterpillar Inc. | | | | | | | |
 Johnson & Johnson | | | | | | | |
 Pfizer Inc. | | | | | | | |
 Coca-Cola Co. | | | | | | | |
 Walgreens Boots Alliance Inc.| | | | | | | | 
-Costco | 324| 305| -5%| 41| +264| Still to Analyze| | 
+Costco | 324| 305| -5%| 41| +264| Analyze| | 
 
 | NASDAQ COMPANY         | ALL-TIME HIGH	| CURRENT	| CHG % | 2008 Low | 2008-2020 diff | BalanceSheet | Ratings |
 |-----------------|:-----:|:-----:|------:|------:|-----|:-----:|------:|------:|--|
