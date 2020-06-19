@@ -72,7 +72,7 @@ WMT After July Target 180   = Probability .3  = Per Lot $200
 BYND After July Target 100  = Probability .5  = Per Lot $200
 TWTR After July Target 30   = Probability .6  = Per Lot $100
 DBI After July Target 7.5   = Probability .6  = Per Lot $200
-~~ULTA After Sep Target 180   = Probability .5  = Per Lot $200~~
+ULTA After Sep Target 180   = Probability .5  = Per Lot $200
 
 Options Sell
 
