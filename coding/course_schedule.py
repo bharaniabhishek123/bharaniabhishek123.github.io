@@ -1,4 +1,21 @@
+""" 
+There are a total of numCourses courses you have to take, labeled from 0 to numCourses-1.
+Some courses may have prerequisites, for example to take course 0 you have to first take course 1, which is expressed as a pair: [0,1]
+Given the total number of courses and a list of prerequisite pairs, is it possible for you to finish all courses?
+"""
 
+def check_cycle(vertex, adj_list, visited, recursion_stack):
+    visited[vertex] = True 
+    recursion_stack[vertex] = True 
+
+    for neighbor in adj_list[vertex]:
+        if visited[neighbor] == False :
+            check_cycle(neighbor, adj_list, visited, recursion_stack)
+        elif recursion_stack[neighbor] == True:
+            return False 
+    
+    recursion_stack[vertex] = False 
+    return True  # there is no cycle 
 
 
 def canFinish(numCourses, prerequisites):
@@ -6,7 +23,6 @@ def canFinish(numCourses, prerequisites):
     # pre-requisites is edge list , convert it to adj list
 
     adj_list = [[] for _ in range(numCourses)]
-
 
     for edge in prerequisites:
         src, dest = edge 
@@ -19,6 +35,14 @@ def canFinish(numCourses, prerequisites):
     # 0->1, 2->0, 1->2 [[2],[0],[1]]
 
     visited = [False] * numCourses
+    recursion_stack = [False] * numCourses 
+
+    for i in range(numCourses):
+        if visited[i] == False :
+            check_cycle(i, adj_list, visited, recursion_stack)
+    return True 
+
+
 
 
 
