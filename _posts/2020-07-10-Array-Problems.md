@@ -46,3 +46,33 @@ Note:
 
 The solution set must not contain duplicate triplets.
 
+Failed Attempt 
+```python
+def threeSum(self, nums: List[int]) -> List[List[int]]:
+    n = len(nums)
+    
+    if n < 3 :
+        return []
+    
+    res = []
+    
+    unique_indexes = []
+    
+    for i in range(n):
+        target = -nums[i]
+        other_two_index = self.twosum(nums, target, i)
+        
+        if len(other_two_index) ==2 :
+            
+            other_two_index.append(i)
+            if list(sorted(other_two_index)) not in unique_indexes:
+                unique_indexes.append(list(sorted(other_two_index)))
+    
+    for record in unique_indexes:
+        
+        arr = sorted([nums[record[0]],nums[record[1]], nums[record[2]]])
+        if sum(arr) ==0 and arr not in res:
+            res.append(arr)
+    
+    return res
+```
