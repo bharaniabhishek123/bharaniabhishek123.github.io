@@ -53,3 +53,87 @@ while target_idx < len(target):
 return subseq_count 
 ```
 
+## Important Learning  - Iterative Python program to check if a string is subsequence of another string 
+```python
+
+# Returns true if str1 is a subsequence of str2 
+def isSubSequence(str1,str2): 
+    """ returns True if str1 is subsequence of str2
+        example
+        'ace' is subsequence of 'abcde'
+        'bb' is not subsequence of 'abcde'
+    """  
+    m = len(str1) 
+    n = len(str2) 
+      
+    j = 0    # Index of str1 
+    i = 0    # Index of str2 
+      
+    # Traverse both str1 and str2 
+    # Compare current character of str2 with  
+    # first unmatched character of str1 
+    # If matched, then move ahead in str1 
+      
+    while j<m and i<n: 
+        if str1[j] == str2[i]:     
+            j = j+1    
+        i = i + 1
+          
+    # If all characters of str1 matched, then j is equal to m 
+    return j==m 
+```      
+
+## Number of Matching Subsequences
+Given string S and a dictionary of words words, find the number of words[i] that is a subsequence of S.
+
+```python
+Example :
+Input: 
+S = "abcde"
+words = ["a", "bb", "acd", "ace"]
+Output: 3
+Explanation: There are three words in words that are a subsequence of S: "a", "acd", "ace".
+```
+
+## Solution 
+1. getting timeout on the below solution 
+
+```python
+def subseq1(self, word1, word2):
+    """ returns True if word1 is subsequence of word2
+        example
+        ace is subsequence of abcde
+        bb is not subsequence of abcde            
+    """        
+    # word1 = bb
+    # word2 = abcde
+    word1_idx = 0
+    word2_idx = 0
+
+    while word1_idx < len(word1) and word2_idx < len(word2):
+
+        if word2[word2_idx] == word1[word1_idx]:
+            word1_idx +=1
+        word2_idx +=1 
+    
+    return word1_idx == len(word1)    
+
+def subseq2(self, word1, word2):
+    c2 = Counter(word2)
+    c1 = Counter(word1)
+    
+    for c1_ch, c1_count in c1.items():
+        if c1_ch not in c2 or c1_count > c2.get(c1_ch) :
+            return False
+    return True
+    
+
+def numMatchingSubseq(self, S: str, words: List[str]) -> int:
+    count_subseq = 0
+    
+    for word in words:
+        if self.subseq1(word, S): # or self.subseq2(word,S)
+            count_subseq += 1
+    
+    return count_subseq
+```
