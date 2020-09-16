@@ -3,6 +3,7 @@ layout: post
 title: Stock Market
 ---
 
+
 ### What to buy in these market crash based on my judgement. It's being center of my discussion now a days to identify best stocks in the bear market. I will try to document all my thoughts for my own use in these post.
 
 
