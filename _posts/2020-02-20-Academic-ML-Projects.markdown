@@ -5,7 +5,7 @@ date:   2020-02-20 23:25:46 -0400
 categories: jekyll update
 ---
 
-<a href="bharaniabhishek123.github.io/_posters/cs231n_poster.pdf" target="_blank">CS231n - Prostate Cancer Grade Assessment </a>
+<a href="_posters/cs231n_poster.pdf" target="_blank">CS231n - Prostate Cancer Grade Assessment </a>
 
 <a href="bharaniabhishek123.github.io/_posters/cs221_poster.pdf" target="_blank">CS221 – An AI Agent for Lunar Lander</a>
 
