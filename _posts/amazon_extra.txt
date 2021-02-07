@@ -1,0 +1,151 @@
+Introduce Yourself 
+
+Hi, I am a data engineer currently working for vmware. 
+I am part of Data Architecture team responsible to design and manage data systems to get insights from customer data.
+
+Our product "Skyline" help customers avoid problems in their environments.
+Skyline uses machine learning to analyze customer data against vmware best practices and give proactive insights to customers.
+
+Skyline advisor let customer view potentional issues and findings and help them to act proactively remediate. 
+Log bundle transfer process which is safe and secure. 
+
+we follow ceip and gdpr regulations when collecting data.
+
+I am really excited about using data to help customers, particulary by using data engineering. 
+I have helped skyline product base to grow from 2k customer to 10k customers in the span of 2 years.
+
+
+Tell me about a time when you improved business and engineering team process via data architecture ?
+
+    Sure, last year I gave an idea of doing cohort anaylsis between support request (SR) filed by customer on VMware support portal and Skyline collected data. 
+
+    Now to give you some context, service request (SR) are logged by customers and they attach log bundles.
+    Like an aws customer logs a ticket with aws support mentioning the problem faced and product customer is using.
+
+    Since, skyline collects customer environment data such as data center topology hostname or virtual machine name. 
+
+    I created the data architecture and the data pipline to compare host/virtual machine names from log-bundle's data and compare with skyline monitored host/virtual machine name. 
+
+    The missing data helped our marketing team. They reached out to individual customers to turn-on skyline monitoring on the set of host/virtual machines.
+
+    This helped in increasing our customer base (2k to 10k) at the same time engineering support team received less SR's (helping them reduce by 20% volume). 
+
+Why you want to work at Amazon 
+
+    - answer why amazon fits into career path
+    Amazon prime video collects huge amount of data, ranging from customer clicks or navigation on prime video app to most watched genre. 
+    As a data engineer it gives unique opportunity to answer questions with very large dataset. 
+
+    I would like to contribute towards refinning and developing data solutions and help meet business goals
+    by making the data easily available to appropriate teams.
+
+    I want to build soltion which impact thousands of customers across the world and learn and grow professionally while working at amazon.
+
+
+Give me an example of a time you used customer feedback to drive improvement or innovation. What was the situation and what action did you take?
+
+
+
+
+
+
+
+
+calculated risk and constraints bring resourcefulness
+
+    I am working on my current project from start.Our project is not heavily funded and we are short on budget. 
+    The tools we use are more open source and we try to optimize our ETL workloads so that we use less EMR resources.
+
+    And while choosing the ETL framework the senior architects in my team emphasised on using Glue ETL.
+
+    Although it's does have additional funnctionality with dynamic frame and all but it's was not cost effective for us to run our etl using glue etl.
+
+    I was critical to that decision and took the risk to create a working data-pipeline on EMR and demo it to the team.
+    I was able to demostrate that we can do all the work on doing everything on emr v/s glue etl and was able to onboard senior architects.
+
+    Also, We saved a lot of $$ using spot instances v/s on demand instances.
+
+
+self-critical
+Keep Data Points on each description.
+
+RDBMS 
+Benefits of using why dynamo db ? 
+Performance is predictable, low-latency , easy scaling, easy to configure iops operation. fully managed.
+
+
+learn sharding and partitioning.
+
+
+why we choose Presto v/s Redshift. 
+
+Separtion of storage and compute and having an infrastructure (SRE team ) to manage Presto Cluster. 
+Since, the analtyics team size is less and we wanted tighter control over cost to spend on compute, we choose presto.
+The more resources we add , the faster the query will run. 
+With Presto, data is usually stored on S3 so there is no attachment between compute and storage, 
+so the Presto workers are completely stateless and can scale in and out as needed, also with auto-scale
+
+Federation means you can execute your query across multiple data sources - e.g. a single query to join data between S3, MySQL, Elasticsearch 
+and even our inhouse data sources such as impala db. 
+That enables a lot of data-lake usage patterns, and in most cases helps reduce the number of ETLs required for a system to function 
+because you don’t have to bring over the dimension / reference tables from your production OLTP database to your DWH, but actually query it (it’s read replica, rather) directly.
+
+To provide employees with the critical need of interactive querying, we’ve worked with Presto, an open-source distributed SQL query engine, over the years. Operating Presto at Pinterest’s scale has involved resolving quite a few challenges like, supporting deeply nested and huge thrift schemas, slow/ bad worker detection and remediation, auto-scaling cluster, graceful cluster shutdown and impersonation support for ldap authenticator.
+
+Our infrastructure is built on top of Amazon EC2 and we leverage Amazon S3 for storing our data. This separates compute and storage layers, and allows multiple compute clusters to share the S3 data.
+
+We have hundreds of petabytes of data and tens of thousands of Apache Hive tables. Our Presto clusters are comprised of a fleet of 450 r4.8xl EC2 instances. Presto clusters together have over 100 TBs of memory and 14K vcpu cores. Within Pinterest, we have close to more than 1,000 monthly active users (out of total 1,600+ Pinterest employees) using Presto, who run about 400K queries on these clusters per month.
+
+Each query submitted to Presto cluster is logged to a Kafka topic via Singer. Singer is a logging agent built at Pinterest and we talked about it in a previous post. Each query is logged when it is submitted and when it finishes. When a Presto cluster crashes, we will have query submitted events without corresponding query finished events. These events enable us to capture the effect of cluster crashes over time.
+
+Each Presto cluster at Pinterest has workers on a mix of dedicated AWS EC2 instances and Kubernetes pods. 
+Kubernetes platform provides us with the capability to add and remove workers from a Presto cluster very quickly. 
+The best-case latency on bringing up a new worker on Kubernetes is less than a minute. 
+However, when the Kubernetes cluster itself is out of resources and needs to scale up, it can take up to ten minutes. 
+Some other advantages of deploying on Kubernetes platform is that our Presto deployment becomes agnostic of cloud vendor, instance types, OS, etc.
+
+invention 
+
+
+created metrics 
+
+deliver results in timely fashion 
+
+take ownership
+
+simplified a process
+ - created a tool for internal support team 
+
+5+ years of experience as a Data Engineer or in a similar role
+· Experience with data modeling, data warehousing, and building ETL pipelines
+· Experience in SQL
+· Bachelor's Degree in Computer Science or a related technical discipline
+· 3+ years of experience in the field of data engineering
+· Expertise in the design, creation and management of large datasets/data models.
+· Ability to write high quality, maintainable, and robust code, often in SQL, and Python.
+· Demonstrated strength in data modeling - understanding of 3NF, Star schema, etc.
+
+  Experience with Amazon Redshift
+· Experience in scripting languages
+· Experience working with business owners to define key business requirements and convert to technical specification
+· Experience handling Big data volumes and performance tuning
+· Exposure/Experience in Big data Technologies (hadoop, spark, presto, etc.)
+· Experience working in a UNIX/LINUX environment
+· Strong analytical and problem solving skills
+· Excellent verbal and written communication skills
+· Experience working with business owners to convert key business requirements into technical specifications
+
+consider specialized function of adding infrastructure to answer questions with data using software engineering best practices.
+    - data management fundamentals
+    - data storage principles
+    - distrubted systems such as hadoop/spark 
+
+Data engineer responsibilities varies from optimizing operational data store to processing complex semi-structured data streams.
+But the end product is always usable datasets that provide business value.
+
+For DE III 
+
+Track 
+
+
+

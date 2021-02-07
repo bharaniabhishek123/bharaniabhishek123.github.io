@@ -8,7 +8,7 @@ Experience Learn and Grow Model
 ### Introduce Yourself 
 ```
 Hi, I am a data engineer currently working for vmware. 
-I am part of Data Architecture team responsible to design and manage data systems to get insights from customer data.
+I am part of Data Architecture team responsible to design & manage data systems to get insights from customer data.
 
 Our product "Skyline" help customers avoid problems in their environments.
 Skyline uses machine learning to analyze customer data against vmware best practices and give proactive insights to customers.
@@ -116,13 +116,7 @@ Creating Inside vmware we have office of CTO and I was reading one whitepaper on
 
 ```
 
-### How have you leveraged data to develop a strategy?
-```
-skyline cohort analysis 
-
-```
-
-### Above and beyond your role?
+### Tell me about a time when you went Above and beyond your role?
 ```
 I was working on new support portal project which uses IBM watson on customer description to route cases to appropriate team.And I was given additional responisiblity to manage the deployment process of ML models apart from data engineering work as we had no ML engineer on the team. The team was working with consultants from IBM Watson team.
 
@@ -140,12 +134,20 @@ I got appreciation for single handedly managing the devops work on new project.
 I was working on customer facing portal, and as data engineer I was asked to build complex data pipeline to pull data from salesforce and share with data scientists. After I shared the first phase of data for the model training, I asked the feedback about dataset shared. This is to confirm whether I correctly extracted data, in the feedback I got back the data scientist made few suggestions (to gather equally distributed data, and mostly independent features to avoid training erros). I changed my data pipeline accordingly and was able to deliver better dataset from next sprint.
 ```
 
+
+### How have you leveraged data to develop a strategy?
+```
+explain skyline cohort analysis 
+
+```
+
+
 ### Give me an example of a time you used customer feedback to drive improvement or innovation. What was the situation and what action did you take?
 ```
 
 ```
 
-Tell me about a goal that you set that took a long time to achieve or that you are still working towards. How do you keep focused on the goal given the other priorities you have?
+### Tell me about a goal that you set that took a long time to achieve or that you are still working towards. How do you keep focused on the goal given the other priorities you have?
 
 ```
 I always wanted to sing and create music. In my college I was playing guitar but wasn't able to sing while playing. 
@@ -155,21 +157,49 @@ In about 2 months, I was able to perform on stage with my own voice and music.
 I am still working towards polishing music side of mine. 
 I do this in small incremental chunks, setting a small goal of playing a blue rythym or start of song rather than focusing on bigger part in one go.
 
+```
+
+### Tell me about a time when you linked two or more problems together and identified an underlying issue? Were you able to find a solution?
+```
+
+```
+### What three things you are you working on to improve your overall effectiveness?
+```
 
 ```
 
-Tell me about a time when you linked two or more problems together and identified an underlying issue? Were you able to find a solution?
-What three things you are you working on to improve your overall effectiveness?
-Give me an example of when you took an unpopular stance in a meeting with peers and your leader and you were the outlier. What was it, why did you feel strongly about it, and what did you do?
-Tell me about a time you wouldn’t compromise on achieving a great outcome when others felt something was good enough. What was the situation?
-Tell me about a time you made a hard decision to sacrifice short term gain for a longer term goal.
-How do you drive adoption for your vision/ideas? How do you know how well your idea or vision has been adopted by other teams or partners? Give a specific example highlighting one of your ideas.
-Tell me about a time when you realized you needed to have a deeper level of subject matter expertise to do your job well?
 
+### Give me an example of when you took an unpopular stance in a meeting with peers and your leader and you were the outlier. What was it, why did you feel strongly about it, and what did you do?
+```
+
+```
+
+### Tell me about a time you wouldn’t compromise on achieving a great outcome when others felt something was good enough. What was the situation?
+```
+
+```
+
+### Tell me about a time you made a hard decision to sacrifice short term gain for a longer term goal.
+```
+
+```
+
+### How do you drive adoption for your vision/ideas? How do you know how well your idea or vision has been adopted by other teams or partners? Give a specific example highlighting one of your ideas.
+```
+
+```
+
+### Tell me about a time when you realized you needed to have a deeper level of subject matter expertise to do your job well?
+```
+
+```
+
+### Tell me about a time when you had to analyze facts quickly, define key issues, and respond immediately to a situation. What was the outcome?
+```
+
+```
 
 In answering the questions I would recommend using the STAR or SOAR method to tell a compelling and concise story that accurately answers the question(s) asked to you. In my own preparation for the onsite interviews I personally printed off the leadership principles and came up with 2-3 examples for each principle. When the questions were asked of me I had specific examples to share with them using the STAR or SOAR method of answering to explain each situation. Remember that using the same situation for each principle will not give us a well-rounded view of your experience.
-
  
-Tell me about a time when you had to analyze facts quickly, define key issues, and respond immediately to a situation. What was the outcome?
 
 DATE_SUB('2012-06-12', INTERVAL 29 DAY) last 30 days 
