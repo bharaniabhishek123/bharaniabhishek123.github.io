@@ -6,7 +6,7 @@ title: Interview preparation
 Experience Learn and Grow Model 
 
 ### Introduce Yourself 
-```
+<br>
 Hi, I am a data engineer currently working for vmware. 
 I am part of Data Architecture team responsible to design & manage data systems to get insights from customer data.
 
@@ -20,7 +20,7 @@ we follow ceip and gdpr regulations when collecting data.
 
 I am really excited about using data to help customers, particulary by using data engineering. 
 I have helped skyline product base to grow from 2k customer to 10k customers in the span of 2 years.
-```
+</br>
 
 ### Tell me about a time when you improved business and engineering team process via data architecture ?
 ```
