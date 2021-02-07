@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Amazon Interview preparation
+title: Interview preparation
 ---
 
 Experience Learn and Grow Model 
