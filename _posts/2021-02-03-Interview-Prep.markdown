@@ -19,12 +19,12 @@ Log bundle transfer process which is safe and secure.
 we follow ceip and gdpr regulations when collecting data.
 
 I am really excited about using data to help customers, particulary by using data engineering. 
-I have helped skyline product base to grow from 2k customer to 10k customers in the span of 2 years.
+I have helped skyline product base to grow from **2k customer to 10k** customers in the span of 2 years.
 </br>
 
 ### Tell me about a time when you improved business and engineering team process via data architecture ?
-```
-Sure, last year I gave an idea of doing cohort anaylsis between support request (SR) filed by customer on VMware support portal and Skyline collected data. 
+<br>
+Sure, last year I gave an idea of doing **cohort anaylsis** between support request (SR) filed by customer on VMware support portal and Skyline collected data. 
 
 Now to give you some context, service request (SR) are logged by customers and they attach log bundles.
 Like an aws customer logs a ticket with aws support mentioning the problem faced and product customer is using.
@@ -36,9 +36,10 @@ I created the data architecture and the data pipline to compare host/virtual mac
 The missing data helped our marketing team. They reached out to individual customers to turn-on skyline monitoring on the set of host/virtual machines.
 
 This helped in increasing our customer base (2k to 10k) at the same time engineering support team received less SR's (helping them reduce by 20% volume). 
-```
+</br>
+
 ### Why you want to work at Amazon 
-```
+<br>
 - answer why amazon fits into career path
 Amazon prime video collects huge amount of data, ranging from customer clicks or navigation on prime video app to most watched genre. 
 As a data engineer it gives unique opportunity to answer questions with very large dataset. 
@@ -47,12 +48,12 @@ I would like to contribute towards refinning and developing data solutions and h
 by making the data easily available to appropriate teams.
 
 I want to build soltion which impact thousands of customers across the world and learn and grow professionally while working at amazon.
-```
+</br>
 
 
 ### Tell me about a time when you were faced with a problem that had a number of possible solutions. What was the problem and how did you determine the course of action? What was the outcome of that choice?
 
-```
+<br>
 SITUATION - Recently I was working on a project to ETL topological data using Spark. 
 The data here comes from collectors of virtual machines running at customer end and sending via telemetry client. So, assume a big data center which customer is having and this dataset contains all the hostmachines, network devices, storage devices information.  
 At each customer end, we run the collector 2-3 times a day.so, we collect around 200gb and format is compressed json (so, when you unzip and read it to make it querable it's more than 1tb).
@@ -85,11 +86,11 @@ I corrected the code to use reduce operation instead of costly explode operation
 
 RESULT - In the end I got the optimal ETL solution which took close to 2 hours to run. I shared the learning with my team.
 I learned how to optimize and avoid costly operations. I was able to bring down ETL run time by 90% which is a lot of saving.
-```
+</br>
 
 ### When did you take a risk, make a mistake, or fail? How did you respond, and how did you grow from that experience?Describe a time you took the lead on a project.
 
-```
+<br>
 I was working with internal machine learning team to extract support request (SR) data from salesforce. so that, they can train natural language based ml model on it. I made a mistake of not asking about the what distribution of data they need as it was my first time directly working with ml engineer. 
 
 They trained the model on highly skewed data and model accuracy was good on certain set of products but it was not good on other set of products.  In the root cause analysis we got to know that we need rightly distributed data for model training to be successful.
@@ -101,23 +102,20 @@ Took Deployment risk
 
 Overcommiting to a deadline to make deliverables.
 I was working on an project to create data pipeline to get data from salesforce. I overcommited to a deadline of 2 week but the actual work took longer.
-
-
-
-```
+</br>
 
 
 ### What did you do when you needed to motivate a group of individuals or promote collaboration on a particular project?
-```
+<br>
 We onboarded new data enigneers within my team. 
 To bring them upto speed with current project work I created interdependence work schedule.
 This will 
 Creating Inside vmware we have office of CTO and I was reading one whitepaper on differential programming language based on rust and how it's more efficient that Java. 
 
-```
+</br>
 
 ### Tell me about a time when you went Above and beyond your role?
-```
+<br>
 I was working on new support portal project which uses IBM watson on customer description to route cases to appropriate team.And I was given additional responisiblity to manage the deployment process of ML models apart from data engineering work as we had no ML engineer on the team. The team was working with consultants from IBM Watson team.
 
 Additonal work was to develop CI/CD pipeline to migrate ml model between environments.
@@ -127,29 +125,29 @@ This was my first encounter to developed a CI/CD pipeline for a project from scr
 I created run books so that other engineers on team know what actions to perform incase of outages.
 
 I got appreciation for single handedly managing the devops work on new project.
-```
+</br>
 
 ### Tell me about a time where you sought out perspectives other than your own to make a product/service/project better?
-```
+<br>
 I was working on customer facing portal, and as data engineer I was asked to build complex data pipeline to pull data from salesforce and share with data scientists. After I shared the first phase of data for the model training, I asked the feedback about dataset shared. This is to confirm whether I correctly extracted data, in the feedback I got back the data scientist made few suggestions (to gather equally distributed data, and mostly independent features to avoid training erros). I changed my data pipeline accordingly and was able to deliver better dataset from next sprint.
-```
+</br>
 
 
 ### How have you leveraged data to develop a strategy?
-```
+<br>
 explain skyline cohort analysis 
 
-```
+</br>
 
 
 ### Give me an example of a time you used customer feedback to drive improvement or innovation. What was the situation and what action did you take?
-```
+<br>
 
-```
+</br>
 
 ### Tell me about a goal that you set that took a long time to achieve or that you are still working towards. How do you keep focused on the goal given the other priorities you have?
 
-```
+<br>
 I always wanted to sing and create music. In my college I was playing guitar but wasn't able to sing while playing. 
 In 2016, I started rehearshing again and whatever way i was performing I used to record. 
 
@@ -157,7 +155,7 @@ In about 2 months, I was able to perform on stage with my own voice and music.
 I am still working towards polishing music side of mine. 
 I do this in small incremental chunks, setting a small goal of playing a blue rythym or start of song rather than focusing on bigger part in one go.
 
-```
+</br>
 
 ### Tell me about a time when you linked two or more problems together and identified an underlying issue? Were you able to find a solution?
 ```
