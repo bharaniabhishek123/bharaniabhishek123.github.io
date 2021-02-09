@@ -73,7 +73,7 @@ The ETL should store the data in partitioned manner with structure as below
           - year-month 
             - <body1.parquet>
 
-I need to compare all 5 solutions and choose the one which is optimal ETL, take less resources and less time to run.
+I need to compare all 5 solutions and choose the one which is optimal ETL, take less resources and less time to run and is simple enough to present.
 
 ACTION - I started with first solution which took almost 24 hours to finish on EMR clusder with 10 core nodes with r5.4xlarge instances. 
 Clearly, it was not acceptable. 
@@ -105,20 +105,11 @@ I was working on an project to create data pipeline to get data from salesforce.
 </br>
 
 
-## What did you do when you needed to motivate a group of individuals or promote collaboration on a particular project?
-<br>
-We onboarded new data enigneers within my team. 
-To bring them upto speed with current project work I created interdependence work schedule.
-This will 
-Creating Inside vmware we have office of CTO and I was reading one whitepaper on differential programming language based on rust and how it's more efficient that Java. 
-
-</br>
-
 ## Tell me about a time when you went Above and beyond your role?
 <br>
-I was working on new support portal project which uses IBM watson on customer description to route cases to appropriate team.And I was given additional responisiblity to manage the deployment process of ML models apart from data engineering work as we had no ML engineer on the team. The team was working with consultants from IBM Watson team.
+I was working on new support portal project which uses IBM watson on customer description to route cases to appropriate team. Since we had few members on team, I was given additional responisiblity to manage the deployment process of ML models apart from data engineering work as we had no ML engineer on the team. The team was working with consultants from IBM Watson team.
 
-Additonal work was to develop CI/CD pipeline to migrate ml model between environments.
+Additonal work was to develop CI/CD pipeline to migrate ml model between environments. I have to add stages to test the ml model accuracy before deploying to production. If accuracy is not more than threshold, then rollback the deployment.
 
 This was my first encounter to developed a CI/CD pipeline for a project from scratch. I learned everything on my own and took guidance IBM engineers. I learned how to create stages in pipeline, store the api keys and expose it in code, add dependencies between stages incase deployment failes how to rollback.
 
@@ -126,6 +117,15 @@ I created run books so that other engineers on team know what actions to perform
 
 I got appreciation for single handedly managing the devops work on new project.
 </br>
+
+## What did you do when you needed to motivate a group of individuals or promote collaboration on a particular project?
+<br>
+We onboarded new data enigneers within my team. 
+To bring them upto speed with current project work I created interdependent tasks.
+This will 
+Creating Inside vmware we have office of CTO and I was reading one whitepaper on differential programming language based on rust and how it's more efficient that Java. 
+</br>
+
 
 ## Tell me about a time where you sought out perspectives other than your own to make a product/service/project better?
 <br>
@@ -136,12 +136,6 @@ I was working on customer facing portal, and as data engineer I was asked to bui
 ## How have you leveraged data to develop a strategy?
 <br>
 explain skyline cohort analysis 
-
-</br>
-
-
-## Give me an example of a time you used customer feedback to drive improvement or innovation. What was the situation and what action did you take?
-<br>
 
 </br>
 
@@ -156,6 +150,28 @@ I am still working towards polishing music side of mine.
 I do this in small incremental chunks, setting a small goal of playing a blue rythym or start of song rather than focusing on bigger part in one go.
 
 </br>
+
+## calculated risk and constraints bring resourcefulness
+<br>
+I am working on my current project from start.Our project is not heavily funded and we are short on budget. 
+The tools we use are more open source and we try to optimize our ETL workloads so that we use less EMR resources.
+
+And while choosing the ETL framework the senior architects in my team emphasised on using Glue ETL.
+
+Although it's does have additional funnctionality with dynamic frame and all but it's was not cost effective for us to run our etl using glue etl.
+
+I was critical to that decision and took the risk to create a working data-pipeline on EMR and demo it to the team.
+I was able to demostrate that we can do all the work on doing everything on emr v/s glue etl and was able to onboard senior architects.
+
+Also, We saved a lot of $$ using spot instances v/s on demand instances.
+</br>
+
+## Give me an example of a time you used customer feedback to drive improvement or innovation. What was the situation and what action did you take?
+<br>
+
+</br>
+
+
 
 ## Tell me about a time when you linked two or more problems together and identified an underlying issue? Were you able to find a solution?
 ```
