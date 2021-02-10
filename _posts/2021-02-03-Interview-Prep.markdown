@@ -26,12 +26,12 @@ I have helped skyline product base to grow from **2k customer to 10k** customers
 <br>
 Sure, last year I gave an idea of doing **cohort anaylsis** between support request (SR) filed by customer on VMware support portal and Skyline collected data. 
 
-Now to give you some context, service request (SR) are logged by customers and they attach log bundles.
+Now to give you some context, support request (SR) are logged by customers and they attach log bundles.
 Like an aws customer logs a ticket with aws support mentioning the problem faced and product customer is using.
 
 Since, skyline collects customer environment data such as data center topology hostname or virtual machine name. 
 
-**I created the data architecture and the data pipline** to compare host/virtual machine names from log-bundle's data and compare with skyline monitored host/virtual machine name. 
+**I created the data architecture and the data pipline** for this business problem and compared host/virtual machine names from log-bundle's data and compare with skyline monitored host/virtual machine name. 
 
 The missing data helped our marketing team. They reached out to individual customers to turn-on skyline monitoring on the set of host/virtual machines.
 
@@ -93,7 +93,10 @@ I learned how to optimize and avoid costly operations. I was able to bring down 
 <br>
 I was working with internal machine learning team to extract support request (SR) data from salesforce. so that, they can train natural language based ml model on it. I made a mistake of not asking about the what distribution of data they need as it was my first time directly working with ml engineer. 
 
+
+
 They trained the model on highly skewed data and model accuracy was good on certain set of products but it was not good on other set of products.  In the root cause analysis we got to know that we need rightly distributed data for model training to be successful.
+I learned that quality dependes on training data, tunning parameters and it requires constantly evaluate and combine new libraries for same task. We are optimizing for metrics in ML unlike traditional software.
 
 I responded by asking more clarifying questions to the team and learned that in accuracy sensitive projects where success of whole project is dependent on accuracy of model. It's is really important to ask questions about data needs like distribution of data to be pulled etc.
 
@@ -117,6 +120,8 @@ I created run books so that other engineers on team know what actions to perform
 
 I got appreciation for single handedly managing the devops work on new project.
 </br>
+
+
 
 ## What did you do when you needed to motivate a group of individuals or promote collaboration on a particular project?
 <br>
@@ -217,3 +222,9 @@ In answering the questions I would recommend using the STAR or SOAR method to te
  
 
 DATE_SUB('2012-06-12', INTERVAL 29 DAY) last 30 days 
+
+
+ML platform should be able to integrate with data, support data versioning, monitoring, governance across data pipeline.
+
+collabration functions to enable sharing code, data, features, experiments with other team securely.
+
