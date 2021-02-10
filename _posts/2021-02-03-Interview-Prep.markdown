@@ -173,6 +173,12 @@ Also, We saved a lot of $$ using spot instances v/s on demand instances.
 
 ## Give me an example of a time you used customer feedback to drive improvement or innovation. What was the situation and what action did you take?
 <br>
+Business wanted to know what part of skyline advisor customer uses the most. The feedback from customer comes via click stream data.
+I create data architecture to get one view of customer transaction across different vmware portal.
+Let's say you had problem and you went to kb.vmware.com and them you submited a ticket on support.vmware.com
+
+We track user ananymous id on browser to help improve kb documentation. 
+monitor customer behavior using click stream data. generate analytics like most clicked kbs and write rules for them.
 
 </br>
 
@@ -180,11 +186,14 @@ Also, We saved a lot of $$ using spot instances v/s on demand instances.
 
 ## Tell me about a time when you linked two or more problems together and identified an underlying issue? Were you able to find a solution?
 ```
+We right rules and fire them on data collected via skyline to generate findings.
 
 ```
 ## What three things you are you working on to improve your overall effectiveness?
 ```
-
+Especially in the pandemic focusing on eliminating interruptions, 
+Plan and set clear architectural goals/success criteria.
+Unlearn and Learn new , master one every quarter.
 ```
 
 
@@ -200,22 +209,22 @@ Also, We saved a lot of $$ using spot instances v/s on demand instances.
 
 ## Tell me about a time you made a hard decision to sacrifice short term gain for a longer term goal.
 ```
-
+Creating a working architecture is important than making optimized one in first go.
 ```
 
 ## How do you drive adoption for your vision/ideas? How do you know how well your idea or vision has been adopted by other teams or partners? Give a specific example highlighting one of your ideas.
 ```
-
+rules should be written based on most files sr cases.
 ```
 
 ## Tell me about a time when you realized you needed to have a deeper level of subject matter expertise to do your job well?
 ```
-
+dataset versioning issue with internal ml team.
 ```
 
 ## Tell me about a time when you had to analyze facts quickly, define key issues, and respond immediately to a situation. What was the outcome?
 ```
-
+pendo collector version usecase
 ```
 
 In answering the questions I would recommend using the STAR or SOAR method to tell a compelling and concise story that accurately answers the question(s) asked to you. In my own preparation for the onsite interviews I personally printed off the leadership principles and came up with 2-3 examples for each principle. When the questions were asked of me I had specific examples to share with them using the STAR or SOAR method of answering to explain each situation. Remember that using the same situation for each principle will not give us a well-rounded view of your experience.
